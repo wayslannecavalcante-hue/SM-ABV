@@ -29,13 +29,13 @@ const feedPosts = [
     id: 4,
     week: 2,
     headline: "Qualidade internacional certificada para proteger o seu veículo.",
-    art: "Imagem estática corporativa e de confiança. O selo dourado/azul do ISO 9001 em destaque ao lado do logo da ABV, com um fundo de uma equipe trabalhando ou um veículo seguro.",
+    art: "Imagem estática corporativa e de confiança. O selo dourado/azul do ISO 9001 em destaque ao lado do logo da ABV, com um fundo de uma equipe trabalhando ou um veículo protegido.",
     caption: "Na ABV Proteção Veicular, seguimos e somos certificados pelo ISO 9001, um sistema de gestão que estabelece padrões internacionais de qualidade nas organizações, garantindo a otimização de processos, maior agilidade no desenvolvimento de produtos e uma produção mais ágil. Não entregue seu patrimônio a amadores. Escolha quem tem a qualidade atestada internacionalmente para cuidar do seu veículo. 🏆🚗"
   },
   {
     id: 5,
     week: 2,
-    headline: "Muito mais que proteção: um ecossistema de segurança para o seu carro.",
+    headline: "Muito mais que proteção: um ecossistema de cuidado para o seu carro.",
     art: "Imagem estática de um carro protegido por um escudo ou redoma digital. Ao redor, ícones flutuantes representando os benefícios (guincho, chaveiro, carro reserva, proteção contra roubo/colisão).",
     caption: "Proteger o seu carro com a ABV é garantir que nenhum imprevisto vai parar a sua vida. Como especialistas, oferecemos uma cobertura completa que vai muito além do básico: proteção contra roubo, furto, colisão, incêndio e fenômenos da natureza. Além disso, você conta com Assistência 24h em todo o Brasil, reboque, chaveiro, socorro mecânico e até carro reserva. Tudo isso sem burocracia, sem análise de perfil e com um valor justo. Seu patrimônio merece essa blindagem. Faça sua cotação no link da bio! 🛡️🤝"
   },
@@ -44,7 +44,7 @@ const feedPosts = [
     week: 2,
     headline: "A \"Hora de Ouro\" do imprevisto.",
     art: "Foto estática noturna de alta qualidade mostrando um reboque da ABV chegando para socorrer um veículo em uma rodovia escura. Clima de \"resgate rápido\".",
-    caption: "Especialistas em segurança chamam os primeiros minutos após uma pane de \"Hora de Ouro\". É o momento de maior vulnerabilidade do motorista. É por isso que a Assistência 24h da ABV não é apenas um \"serviço de guincho\", é uma operação de resgate. Nossa central funciona 24/7, mapeando o prestador mais próximo para garantir que você e sua família saiam da rua o mais rápido possível. Não dirija contando com a sorte. Dirija com a ABV. 🚨📞"
+    caption: "Especialistas em proteção chamam os primeiros minutos após uma pane de \"Hora de Ouro\". É o momento de maior vulnerabilidade do motorista. É por isso que a Assistência 24h da ABV não é apenas um \"serviço de guincho\", é uma operação de resgate. Nossa central funciona 24/7, mapeando o prestador mais próximo para garantir que você e sua família saiam da rua o mais rápido possível. Não dirija contando com a sorte. Dirija com a ABV. 🚨📞"
   },
   {
     id: 7,
@@ -58,7 +58,7 @@ const feedPosts = [
     week: 3,
     headline: "A maior liberdade é poder ir e vir sem medo.",
     art: "Imagem estática de uma estrada aberta e convidativa, vista de dentro do carro em um dia ensolarado. Clima de viagem e tranquilidade.",
-    caption: "Hoje, no feriado de Tiradentes, celebramos um marco histórico de luta pela liberdade. E para nós, especialistas em proteção, liberdade no século 21 é poder pegar a estrada com a sua família ou viajar no feriado com a certeza absoluta de que o seu patrimônio está blindado. Aproveite o seu descanso com segurança. A ABV está na escuta 24 horas por dia! Bom feriado! 🛣️🇧🇷"
+    caption: "Hoje, no feriado de Tiradentes, celebramos um marco histórico de luta pela liberdade. E para nós, especialistas em proteção, liberdade no século 21 é poder pegar a estrada com a sua família ou viajar no feriado com a certeza absoluta de que o seu patrimônio está blindado. Aproveite o seu descanso com tranquilidade. A ABV está na escuta 24 horas por dia! Bom feriado! 🛣️🇧🇷"
   },
   {
     id: 9,
@@ -77,7 +77,7 @@ const feedPosts = [
   {
     id: 11,
     week: 4,
-    headline: "Segurança e respaldo da maior entidade do setor.",
+    headline: "Proteção e respaldo da maior entidade do setor.",
     art: "Imagem estática institucional. O logo da ABV ao lado do logo da AAAPV, transmitindo parceria e solidez. Fundo limpo e profissional.",
     caption: "A ABV é uma associação filiada à AAAPV (Agência de Autorregulamentação das Entidades de Autogestão de Planos de Proteção Contra Riscos Patrimoniais), a principal entidade representativa do setor associativista. A agência foi fundada em 4 de maio de 2016 e não possui fins lucrativos, mas sim o compromisso de fortalecer o movimento associativista, contribuindo para o desenvolvimento econômico, social e sustentável do país. A AAAPV atua no sentido de garantir a satisfação de seus associados, colaboradores e partes interessadas, melhorando continuamente os processos, produtos e serviços. Estar na ABV é ter a certeza de excelência. 🏛️✅"
   },
@@ -90,24 +90,148 @@ const feedPosts = [
   }
 ];
 
-const stories = [
+const mayFeedPosts = [
+  {
+    id: 1,
+    week: 1,
+    headline: "Maio Amarelo: A sua atenção salva vidas. A nossa proteção salva o seu patrimônio.",
+    art: "Imagem estática com o laço do Maio Amarelo sutilmente integrado. Um carro em movimento protegido em uma via bem sinalizada. Cores da ABV mescladas com o tom da campanha.\n\n⚠️ OBS: Arte com predominância da cor AMARELA e inclusão obrigatória do selo 'Maio Amarelo'.",
+    caption: "Começamos o Maio Amarelo, o mês internacional de conscientização para redução de acidentes de trânsito. Como especialistas em proteção veicular, nosso papel vai além de indenizar: queremos você protegido. No trânsito, a sua atenção e prudência salvam vidas. Mas para os imprevistos que fogem do seu controle, a ABV está aqui para blindar o seu patrimônio. Dirija com responsabilidade e conte com a gente. 💛🚗"
+  },
+  {
+    id: 2,
+    week: 1,
+    headline: "FELIZ DIA DO TRABALHADOR",
+    art: "Imagem estática de um trabalhador (pode ser motorista, entregador ou outro profissional) sorrindo, com um visual inspirador. Selo de 'Feliz Dia do Trabalhador'.",
+    caption: "O suor do seu trabalho é o que constrói o seu futuro e o do nosso país. Hoje celebramos a força, a dedicação e a garra de cada trabalhador brasileiro. Que o seu esforço seja sempre recompensado e que suas conquistas estejam sempre bem protegidas. A ABV deseja um Feliz Dia do Trabalhador a todos que fazem o Brasil acontecer! 💼🤝"
+  },
+  {
+    id: 3,
+    week: 1,
+    headline: "No trânsito, a prevenção é sua. O resgate é nosso.",
+    art: "Foto estática de um reboque da ABV em ação durante o dia. Foco na agilidade e no profissionalismo do atendimento.\n\n⚠️ OBS: Arte com predominância da cor AMARELA e inclusão obrigatória do selo 'Maio Amarelo'.",
+    caption: "Mesmo o motorista mais prudente está sujeito a imprevistos. Uma pane elétrica, um pneu furado ou uma bateria que descarrega do nada. É por isso que a nossa Assistência 24h funciona como uma verdadeira operação de resgate. Você faz a sua parte dirigindo com prudência, e nós fazemos a nossa garantindo que você nunca fique na mão, em qualquer lugar do Brasil. Precisou? É só chamar a ABV! 🚨📞"
+  },
+  {
+    id: 4,
+    week: 2,
+    headline: "Feliz Dia das Mães! A maior especialista em proteção que existe.",
+    art: "Imagem estática emocionante de uma mãe ajeitando o cinto do filho no banco de trás do carro. Clima de cuidado e amor.",
+    caption: "Neste Dia das Mães, a ABV homenageia aquelas que nos ensinaram o verdadeiro significado da palavra 'proteção'. O instinto de cuidar de quem se ama é a força mais poderosa do mundo. E é inspirados nesse cuidado que trabalhamos todos os dias para proteger o veículo que transporta o que você tem de mais valioso: a sua família. Um Feliz Dia das Mães a todas as mulheres que guiam nossos caminhos! ❤️👩‍👧‍👦"
+  },
+  {
+    id: 5,
+    week: 2,
+    headline: "Proteção que não julga o seu CEP ou o seu CPF.",
+    art: "Imagem estática direta e empática. Um carimbo de 'Aprovado' sobre um mapa ou documento. Foco na ausência de burocracia.\n\n⚠️ OBS: Arte com predominância da cor AMARELA e inclusão obrigatória do selo 'Maio Amarelo'.",
+    caption: "O mercado tradicional adora colocar barreiras. Eles cobram mais caro dependendo de onde você mora, da sua idade e até recusam a sua proteção se o seu CPF tiver alguma restrição. Na ABV, nós somos diferentes. O associativismo é inclusivo. Nós protegemos o seu veículo com um valor justo, sem análise de perfil e sem consulta ao SPC/Serasa. Porque o seu direito de estar protegido não deve ter barreiras. ✅📄"
+  },
+  {
+    id: 6,
+    week: 2,
+    headline: "A rotina da sua família não pode parar.",
+    art: "Imagem estática de uma pessoa recebendo a chave de um carro reserva. Expressão de alívio e tranquilidade.\n\n⚠️ OBS: Arte com predominância da cor AMARELA e inclusão obrigatória do selo 'Maio Amarelo'.",
+    caption: "Bateu o carro e ele vai precisar ficar dias na oficina? Se você não tem ABV, isso significa dor de cabeça e muito gasto com transporte. Mas com o nosso benefício de Carro Reserva, a sua rotina continua intacta. Você continua levando as crianças na escola e indo para o trabalho com conforto, enquanto nós cuidamos do reparo do seu veículo. Inteligência é estar preparado. 🔑🚙"
+  },
+  {
+    id: 7,
+    week: 3,
+    headline: "Você confia na sua direção. Mas e na dos outros?",
+    art: "Imagem estática com visão de dentro do carro, mostrando o trânsito à frente. Foco na imprevisibilidade das ruas.\n\n⚠️ OBS: Arte com predominância da cor AMARELA e inclusão obrigatória do selo 'Maio Amarelo'.",
+    caption: "No Maio Amarelo, sempre lembramos: a direção defensiva é essencial. Você pode ser o motorista mais cuidadoso do mundo, mas não tem controle sobre as ações dos outros motoristas. Uma distração de terceiros pode causar uma colisão no seu veículo. É por isso que a proteção veicular da ABV é indispensável. Nós cobrimos colisão e danos a terceiros para que o erro de outra pessoa não se transforme no seu prejuízo financeiro. 🛡️🚦"
+  },
+  {
+    id: 8,
+    week: 3,
+    headline: "Indicação Premiada ABV: Concorra a uma CG 160 Start 0km!",
+    art: "Imagem estática chamativa com a foto de uma moto Honda CG 160 Start 0km em destaque. Textos grandes: 'SORTEIO' e 'Indique e Concorra'.\n\n⚠️ OBS: Arte com predominância da cor AMARELA e inclusão obrigatória do selo 'Maio Amarelo'.",
+    caption: "Já pensou em colocar uma CG 160 Start 0km na garagem? Na Indicação Premiada ABV, isso é possível! É muito fácil participar: a cada amigo que você indica e que fecha a proteção veicular com a gente, você ganha um cupom para concorrer a essa moto incrível. Quanto mais indicar, mais chances de ganhar! Não fique de fora dessa. Chame a gente no direct ou no link da bio para saber todas as regras e começar a indicar agora mesmo! 🏍️✨"
+  },
+  {
+    id: 9,
+    week: 3,
+    headline: "Duas rodas, atenção redobrada e proteção garantida.",
+    art: "Imagem estática de um motociclista equipado no trânsito. Foco na tranquilidade e na liberdade de pilotar protegido.\n\n⚠️ OBS: Arte com predominância da cor AMARELA e inclusão obrigatória do selo 'Maio Amarelo'.",
+    caption: "Motociclista, o Maio Amarelo também é para você! Sabemos que a vulnerabilidade sobre duas rodas é maior, tanto para acidentes quanto para furtos e roubos. Enquanto o mercado tradicional recusa motos, a ABV abraça você. Temos planos completos com rastreamento de ponta, assistência 24h e cobertura total para que você possa rodar com a mente tranquila. Acelere com prudência, a gente cuida da sua moto! 🏍️💨"
+  },
+  {
+    id: 10,
+    week: 4,
+    headline: "Monitoramento 24h: O seu carro nunca está sozinho.",
+    art: "Imagem estática de um smartphone mostrando a localização do veículo em tempo real no mapa, com grafismos de tecnologia e satélite.\n\n⚠️ OBS: Arte com predominância da cor AMARELA e inclusão obrigatória do selo 'Maio Amarelo'.",
+    caption: "A tecnologia é a nossa maior aliada na proteção do seu patrimônio. Com o sistema de rastreamento e telemetria da ABV, você tem o controle do seu veículo na palma da mão, 24 horas por dia. Em caso de roubo ou furto, nossa central de pronta-resposta é acionada imediatamente, aumentando drasticamente as chances de recuperação. É tecnologia de ponta trabalhando pela sua paz de espírito. 📱🛰️"
+  },
+  {
+    id: 11,
+    week: 4,
+    headline: "A sua indicação vale uma CG 160 Start 0km!",
+    art: "Imagem estática mostrando uma pessoa feliz segurando uma chave de moto ou um capacete, com a CG 160 Start ao fundo. Grafismos de sorteio e promoção.\n\n⚠️ OBS: Arte com predominância da cor AMARELA e inclusão obrigatória do selo 'Maio Amarelo'.",
+    caption: "A campanha Indicação Premiada ABV está a todo vapor! Você confia na nossa proteção, seu amigo protege o veículo dele com a melhor associação, e você ainda concorre a uma Honda CG 160 Start novinha em folha. É vantagem para todo mundo! Já fez a sua indicação hoje? Corre que ainda dá tempo de acumular cupons. Acesse o link da bio e participe! 🍀🛵"
+  },
+  {
+    id: 12,
+    week: 4,
+    headline: "Por que milhares de associados confiam na ABV?",
+    art: "Arte estática institucional, limpa e corporativa. Logo da ABV em destaque com os selos ISO 9001 e AAAPV.\n\n⚠️ OBS: Arte com predominância da cor AMARELA e inclusão obrigatória do selo 'Maio Amarelo'.",
+    caption: "A confiança não se compra, se constrói com transparência e legalidade. A ABV é uma associação sólida, certificada pelo ISO 9001 e filiada à AAAPV (Agência de Autorregulamentação das Entidades de Autogestão). Isso significa que nossos processos são auditados e seguimos rigorosos padrões de qualidade internacional. Quando você escolhe a ABV, você escolhe a certeza de que será amparado nos momentos mais difíceis. Faça parte da associação que é referência no Brasil. 💙🏛️"
+  }
+];
+
+const abrilStories = [
   {
     id: "s1",
     title: "Feriado Sexta-feira Santa",
     dateClosed: "03/04",
     dateReturn: "06 de Abril",
-    phones: ["0800 606 5979", "0800 030 6672"]
+    phones: ["0800 606 5979", "0800 030 6672"],
+    customCopy: (
+      <>
+        Informamos que no dia <br/>
+        <span className="font-bold text-xl">03/04</span> não haverá <br/>
+        <span className="font-bold text-xl">expediente</span> em nossos <br/>
+        escritórios físicos, estaremos <br/>
+        em recesso.
+      </>
+    )
   },
   {
     id: "s2",
     title: "Feriado de Tiradentes",
     dateClosed: "21/04",
     dateReturn: "22 de Abril",
-    phones: ["0800 606 5979", "0800 030 6672"]
+    phones: ["0800 606 5979", "0800 030 6672"],
+    customCopy: (
+      <>
+        Informamos que no dia <br/>
+        <span className="font-bold text-xl">21/04</span> não haverá <br/>
+        <span className="font-bold text-xl">expediente</span> em nossos <br/>
+        escritórios físicos, estaremos <br/>
+        em recesso.
+      </>
+    )
   }
 ];
 
-const videoScripts = [
+const mayStories = [
+  {
+    id: "s3",
+    title: "Feriado Dia do Trabalhador",
+    dateClosed: "01/05",
+    dateReturn: "02 de Maio",
+    phones: ["0800 606 5979", "0800 030 6672"],
+    customCopy: (
+      <>
+        Informamos que no dia <br/>
+        <span className="font-bold text-xl">01/05</span>, em virtude do <br/>
+        <span className="font-bold text-xl">feriado nacional</span>, <br/>
+        não haverá expediente <br/>
+        em nossos escritórios.
+      </>
+    )
+  }
+];
+
+const abrilVideoScripts = [
   {
     id: 1,
     title: "A Ilusão do 'Gasto a Mais'",
@@ -119,10 +243,10 @@ const videoScripts = [
   {
     id: 2,
     title: "A Hora de Ouro (Assistência 24h)",
-    hook: "Você sabe o que especialistas em segurança chamam de 'Hora de Ouro'?",
+    hook: "Você sabe o que especialistas em proteção chamam de 'Hora de Ouro'?",
     body: "São os primeiros minutos logo depois que o seu carro dá uma pane no meio de uma rodovia escura. É o momento em que você e sua família estão mais vulneráveis. Por isso, a Assistência 24 horas da ABV não é só um 'serviço de guincho'. É uma operação de resgate. Nossa central funciona 24 horas por dia, 7 dias por semana, para mapear o socorro mais rápido e tirar você da rua.",
     cta: "Sua família não pode ficar esperando no escuro. Proteja seu carro com a ABV. Link na bio.",
-    visuals: "Cenário: Caminhando em direção à câmera em um ambiente externo ou com um reboque ao fundo (se possível). Tom de voz: Urgente, protetor e seguro."
+    visuals: "Cenário: Caminhando em direção à câmera em um ambiente externo ou com um reboque ao fundo (se possível). Tom de voz: Urgente, protetor e confiante."
   },
   {
     id: 3,
@@ -147,6 +271,57 @@ const videoScripts = [
     body: "Não acredite só em palavras, exija certificações. A ABV possui o selo ISO 9001 de qualidade internacional e é filiada à AAAPV, a maior entidade reguladora do setor no Brasil. Aqui não tem amadorismo. Nós somos o associativismo levado a sério, com base jurídica firme, transparência e estrutura real para te indenizar quando você mais precisar.",
     cta: "Não entregue seu patrimônio na mão de qualquer um. Escolha a ABV. Link na bio.",
     visuals: "Cenário: Ambiente corporativo, mostrando a estrutura da ABV ou os selos impressos/na tela. Tom de voz: Institucional, firme, passando muita credibilidade."
+  }
+];
+
+const mayVideoScripts = [
+  {
+    id: 1,
+    title: "Maio Amarelo: A Vida em Primeiro Lugar",
+    hook: "Você sabia que a cor amarela no semáforo significa atenção? E no mês de maio, ela significa a vida.",
+    body: "Neste Maio Amarelo, a ABV te convida a refletir. A pressa não vale a sua vida. Dirija com cuidado, respeite as leis de trânsito. E para aquilo que você não pode controlar, conte com a nossa proteção veicular. Nós cuidamos do seu patrimônio para você focar no que mais importa: chegar bem em casa.",
+    cta: "Faça a sua parte no trânsito. Da proteção do seu carro, a gente cuida. Link na bio.",
+    visuals: "Cenário: Rua movimentada ao fundo ou dentro do carro com cinto. Tom de voz: Conscientização, sério e protetor."
+  },
+  {
+    id: 2,
+    title: "Maio Amarelo: O Erro dos Outros",
+    hook: "O maior erro no trânsito é achar que o acidente só acontece com os outros.",
+    body: "O Maio Amarelo está aí para nos lembrar que a proteção no trânsito é responsabilidade de todos. Mas mesmo sendo o melhor motorista, imprevistos acontecem. É por isso que rodar sem proteção veicular hoje em dia é loucura. A ABV garante que um momento de desatenção de terceiros não acabe com o seu patrimônio.",
+    cta: "Proteja seu bem mais valioso. Faça uma cotação com a ABV hoje mesmo.",
+    visuals: "Cenário: Mostrando o trânsito pelo retrovisor ou segurando a chave do carro. Tom de voz: Alerta, educativo e direto."
+  },
+  {
+    id: 3,
+    title: "Dia das Mães: A Maior Especialista",
+    hook: "Se tem alguém que entende de proteção, esse alguém é a sua mãe.",
+    body: "Desde que você nasceu, ela faz de tudo para te manter protegido. Neste Dia das Mães, a ABV quer homenagear esse cuidado incondicional. E te fazer uma pergunta: você está cuidando do veículo que transporta a sua família com a mesma dedicação? Nossa proteção garante tranquilidade para você e para quem você ama.",
+    cta: "Feliz Dia das Mães! Garanta a proteção da sua família com a ABV. Link na bio.",
+    visuals: "Cenário: Ambiente familiar, aconchegante, talvez com uma foto de família ao fundo. Tom de voz: Emocionante, acolhedor e afetuoso."
+  },
+  {
+    id: 4,
+    title: "Indique e Ganhe: Especial Maio Amarelo",
+    hook: "Quer ganhar benefícios exclusivos neste mês só por indicar um amigo?",
+    body: "A campanha Indique e Ganhe da ABV está com tudo! Se você já sabe que a nossa proteção é a melhor e mais confiável, por que não espalhar essa tranquilidade? Indique amigos para a ABV e, a cada proteção fechada, você ganha vantagens direto na sua mensalidade. É proteção pra eles e economia pra você!",
+    cta: "Chama a gente no direct ou clique no link da bio para saber as regras e começar a indicar!",
+    visuals: "Cenário: Dinâmico, segurando o celular mostrando o app ou logo da ABV. Tom de voz: Animado, promocional e convidativo."
+  },
+  {
+    id: 5,
+    title: "Sorteio CG 160 Start 0km",
+    hook: "E se eu te disser que a sua indicação pode virar uma moto 0km na sua garagem?",
+    body: "É isso mesmo! Na Indicação Premiada da ABV, você indica um amigo para proteger o veículo com a gente e ganha um cupom para concorrer a uma Honda CG 160 Start novinha. Você ajuda um amigo a ficar protegido e ainda pode sair motorizado.",
+    cta: "Não perde tempo! Clica no link da bio, veja como participar e comece a indicar agora.",
+    visuals: "Cenário: Ao lado de uma moto ou segurando um capacete. Tom de voz: Muito animado, energia alta."
+  },
+  {
+    id: 6,
+    title: "Como ganhar a CG 160 Start",
+    hook: "Quer saber o segredo para aumentar suas chances de ganhar uma CG 160 Start 0km?",
+    body: "A regra é simples: quanto mais amigos você indicar para a ABV, mais cupons você ganha. Não tem limite de indicação! Pensa nos seus amigos da firma, no grupo da família, na galera do futebol. Todo mundo precisa de proteção veicular. Você indica, eles protegem o carro, e você acumula chances pro sorteio.",
+    cta: "Manda o nosso contato pra galera e garanta seus cupons. Link na bio!",
+    visuals: "Cenário: Com o celular na mão, simulando o envio de mensagens. Tom de voz: Descontraído, dando uma 'dica de ouro'."
   }
 ];
 
@@ -189,6 +364,7 @@ const Logo = ({ customLogo, onUpload }: { customLogo: string | null, onUpload: (
 );
 
 export default function App() {
+  const [selectedMonth, setSelectedMonth] = useState('abril');
   const [activeTab, setActiveTab] = useState('week1');
   const [customLogo, setCustomLogo] = useState<string | null>(null);
 
@@ -203,7 +379,7 @@ export default function App() {
     }
   };
 
-  const tabs = [
+  const tabsAbril = [
     { id: 'week1', label: 'Semana 1', icon: Calendar },
     { id: 'week2', label: 'Semana 2', icon: Calendar },
     { id: 'week3', label: 'Semana 3', icon: Calendar },
@@ -212,8 +388,20 @@ export default function App() {
     { id: 'videos', label: 'Roteiros de Vídeo', icon: Video },
   ];
 
+  const tabsMaio = [
+    { id: 'week1', label: 'Semana 1', icon: Calendar },
+    { id: 'week2', label: 'Semana 2', icon: Calendar },
+    { id: 'week3', label: 'Semana 3', icon: Calendar },
+    { id: 'week4', label: 'Semana 4', icon: Calendar },
+    { id: 'stories', label: 'Stories (Comunicados)', icon: Smartphone },
+    { id: 'videos', label: 'Roteiros de Vídeo', icon: Video },
+  ];
+
+  const currentTabs = selectedMonth === 'abril' ? tabsAbril : tabsMaio;
+
   const renderFeedPosts = (week: number) => {
-    const posts = feedPosts.filter(p => p.week === week);
+    const sourcePosts = selectedMonth === 'abril' ? feedPosts : mayFeedPosts;
+    const posts = sourcePosts.filter(p => p.week === week);
     return (
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {posts.map((post, index) => (
@@ -263,9 +451,10 @@ export default function App() {
   };
 
   const renderStories = () => {
+    const currentStories = selectedMonth === 'abril' ? abrilStories : mayStories;
     return (
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-        {stories.map((story, index) => (
+        {currentStories.map((story, index) => (
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -281,11 +470,7 @@ export default function App() {
               </div>
 
               <p className="text-white text-lg leading-snug mb-8">
-                Informamos que no dia <br/>
-                <span className="font-bold text-xl">{story.dateClosed}</span> não haverá <br/>
-                <span className="font-bold text-xl">expediente</span> em nossos <br/>
-                escritórios físicos, estaremos <br/>
-                em recesso.
+                {story.customCopy}
               </p>
 
               <p className="text-white text-lg leading-snug mb-10">
@@ -325,9 +510,10 @@ export default function App() {
   };
 
   const renderVideoScripts = () => {
+    const currentVideos = selectedMonth === 'abril' ? abrilVideoScripts : mayVideoScripts;
     return (
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-6xl mx-auto">
-        {videoScripts.map((script, index) => (
+        {currentVideos.map((script, index) => (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -374,7 +560,7 @@ export default function App() {
           <Logo customLogo={customLogo} onUpload={handleLogoUpload} />
           <div className="text-right hidden sm:block">
             <h1 className="text-xl font-bold text-gray-900">Planejamento de Social Media</h1>
-            <p className="text-sm text-gray-500 font-medium uppercase tracking-wider">Abril 2026</p>
+            <p className="text-sm text-gray-500 font-medium uppercase tracking-wider">{selectedMonth === 'abril' ? 'Abril 2026' : 'Maio 2026'}</p>
           </div>
         </div>
       </header>
@@ -399,15 +585,33 @@ export default function App() {
               </div>
               <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full text-sm font-medium">
                 <ShieldCheck size={18} className="text-[#E89D25]" />
-                2 Comunicados (Stories)
+                {selectedMonth === 'abril' ? '2 Comunicados (Stories)' : '1 Comunicado (Story)'}
               </div>
             </div>
           </div>
         </div>
 
+        {/* Month Toggle */}
+        <div className="flex items-center mb-6">
+          <div className="flex bg-white rounded-xl p-1 shadow-sm border border-gray-200">
+            <button
+              onClick={() => { setSelectedMonth('abril'); setActiveTab('week1'); }}
+              className={`px-8 py-2.5 rounded-lg font-bold text-sm transition-all ${selectedMonth === 'abril' ? 'bg-[#1A5F7A] text-white shadow-md' : 'text-gray-500 hover:text-gray-900'}`}
+            >
+              Abril
+            </button>
+            <button
+              onClick={() => { setSelectedMonth('maio'); setActiveTab('week1'); }}
+              className={`px-8 py-2.5 rounded-lg font-bold text-sm transition-all flex items-center gap-2 ${selectedMonth === 'maio' ? 'bg-[#1A5F7A] text-white shadow-md' : 'text-gray-500 hover:text-gray-900'}`}
+            >
+              Maio <span className="bg-[#E89D25] text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wider">Novo</span>
+            </button>
+          </div>
+        </div>
+
         {/* Navigation */}
         <div className="flex overflow-x-auto hide-scrollbar mb-8 bg-white p-2 rounded-2xl shadow-sm border border-gray-100">
-          {tabs.map((tab) => {
+          {currentTabs.map((tab) => {
             const Icon = tab.icon;
             const isActive = activeTab === tab.id;
             return (
