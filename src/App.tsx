@@ -177,6 +177,93 @@ const mayFeedPosts = [
   }
 ];
 
+const juneFeedPosts = [
+  {
+    id: 1,
+    week: 1,
+    headline: "O Brasil em campo e a ABV na proteção do seu veículo.",
+    art: "Imagem estática com elementos do Brasil (verde e amarelo sutis) e futebol. Foco na torcida e num carro bem protegido.",
+    caption: "A Copa do Mundo chegou e a única preocupação que você deve ter é com o placar do jogo. Deixe o seu veículo com o nosso time de especialistas! A ABV Proteção Veicular garante cobertura completa e assistência 24h em todo o Brasil para que você possa torcer pela seleção com total tranquilidade. Convoca a ABV pro seu time! 🇧🇷🚗"
+  },
+  {
+    id: 2,
+    week: 1,
+    headline: "Vai juntar a galera pra ver os jogos?",
+    art: "Visual de amigos comemorando um gol ou reunidos. Destaque para tranquilidade onde o carro está.",
+    caption: "Dia de jogo do Brasil é sinônimo de casa cheia, ruas lotadas e estacionamento apertado. Mais do que nunca, seu carro precisa de proteção para evitar dor de cabeça na hora da comemoração. Esteja blindado contra roubo, furto, colisão e imprevistos com a melhor proteção do mercado. Torça tranquilo, a ABV cuida do que é seu! ⚽🛡️"
+  },
+  {
+    id: 3,
+    week: 1,
+    headline: "Em dia de jogo, a nossa Assistência 24h não tira folga.",
+    art: "Imagem de um reboque ABV socorrendo um carro à noite, com detalhes sutis esportivos ou na cor verde e amarela.",
+    caption: "Fez a festa, o jogo acabou e o carro não liga? Fique tranquilo, não vai faltar socorro! Nossa Assistência 24h é titular absoluta no nosso time e está sempre pronta para entrar em campo, em qualquer dia da semana ou feriados. Um atendimento ágil e de confiança. A partida terminou, mas a nossa proteção nunca para. 🤝🚨"
+  },
+  {
+    id: 4,
+    week: 2,
+    headline: "Presenteie quem você ama. E de quebra, ganhe uma moto!",
+    art: "Imagem romântica de Dia dos Namorados integrada visualmente com a promoção da CG 160 Start 0km. Casal sorrindo e logo da Indicação Premiada.",
+    caption: "Neste Dia dos Namorados, o maior ato de amor é garantir a proteção de quem você ama no trânsito! E na ABV, cuidar do seu parceiro te dá chances de ganhar prêmios! Indique o amor da sua vida para se tornar um associado ABV e garanta cupons para concorrer a uma Honda CG 160 Start 0km! Quem ama cuida e indica! ❤️🏍️"
+  },
+  {
+    id: 5,
+    week: 2,
+    headline: "Casal que torce junto, protege o carro junto. E ganha prêmios!",
+    art: "Casal vestido com as cores do Brasil (verde e amarelo), em clima de romance e torcida, apontando para uma foto da CG 160 Start 0km.",
+    caption: "Mês dos Namorados, Copa do Mundo e Indicação Premiada! Traga seu amor para o time da ABV e multiplique suas chances de levar uma moto 0km pra casa. Com a gente, relacionamento sério é garantir a proteção do patrimônio e ainda torcer pela seleção sem dor de cabeça. Declare seu amor indicando hoje mesmo! 🇧🇷👩‍❤️‍👨"
+  },
+  {
+    id: 6,
+    week: 2,
+    headline: "Feliz Dia dos Namorados!",
+    art: "Imagem romântica e aconchegante de um casal, transmitindo cuidado e companheirismo.",
+    caption: "Neste Dia dos Namorados, a ABV deseja a todos os casais muito amor e companheirismo na jornada da vida. Que a estrada de vocês seja sempre amparada por cuidado mútuo e proteção. Celebrem o amor com a tranquilidade de estar bem protegidos ao lado de quem se ama. Feliz Dia dos Namorados! ❤️🚗"
+  },
+  {
+    id: 7,
+    week: 3,
+    headline: "O inverno chegou. A sua bateria sente, nós resolvemos.",
+    art: "Imagem mostrando o painel de um carro e a luz da bateria. Clima levemente mais escuro/frio, com destaque para a urgência da assistência ABV.",
+    caption: "As temperaturas vão começar a cair, e você sabia que no frio a bateria do carro exige muito mais esforço para dar a partida? É nessa época que a gente mais vê carro ficando no prego de manhã cedo. Se você está na ABV, não tem estresse. Uma ligação e nosso socorro mecânico resolve isso rapidinho para você não atrasar o dia inteiro. Proteção que entende a sua rotina! ❄️🔋"
+  },
+  {
+    id: 8,
+    week: 3,
+    headline: "Pegando a estrada pro Arraiá e pro jogo? Leve a proteção junto.",
+    art: "Design no clima de São João/Copa. Bandeirinhas do Brasil e de festa junina, e um carro viajando numa estrada à noite com faróis iluminando o caminho.",
+    caption: "Mês de Junho é bola rolando na Copa e forró tocando nas Festas Juninas! Mas se você vai pegar a estrada para comemorar no interior, atenção triplicada. Escale a proteção veicular da ABV no seu time para viajar tranquilo com cobertura completa e assistência 24h em todo o Brasil. Pule a fogueira e grite gol sem se preocupar com o carro na rua! 🔥⚽🚗"
+  },
+  {
+    id: 9,
+    week: 3,
+    headline: "Fogueira só na festa! Cobertura completa contra incêndio.",
+    art: "Composição de Festa Junina com elementos de proteção veicular. Imagem de alerta sobre incêndio com solução ABV.",
+    caption: "No São João a gente gosta de fogueira, mas longe do nosso veículo! Você sabia que problemas elétricos são grandes causadores de princípios de incêndio em carros? Na ABV, você não esquenta a cabeça. Nossos associados contam com cobertura total contra incêndios, garantindo a proteção financeira do patrimônio. Comemore com tranquilidade! 🌽🚒"
+  },
+  {
+    id: 10,
+    week: 4,
+    headline: "Uma tática imbatível: Por que a ABV é a escolha inteligente?",
+    art: "Ícones de alto contraste: Troféu de ISO 9001 e brasão da AAAPV mesclados com elementos sutis de campo e tática de futebol. Texto: 'A maior associação do seu estado'.",
+    caption: "Num campeonato disputado, talento importa, mas tática e solidez garantem o troféu. O mercado está cheio de promessas mágicas, mas a ABV joga no time da transparência. Somos totalmente regularizados pela AAAPV e possuímos selo ISO 9001 de qualidade internacional. Quando os imprevistos chegam (o verdadeiro ataque adversário), você tem o melhor goleiro para te amparar. Junte-se ao time campeão! 🏆🇧🇷"
+  },
+  {
+    id: 11,
+    week: 4,
+    headline: "Vantagens que devolvem o valor do seu investimento.",
+    art: "Uma pessoa mostrando a tela do celular em um posto de gasolina ou comércio parceiro. Destaque para descontos reais.",
+    caption: "O nosso Clube de Benefícios é um ganha-ganha. Acessando descontos exclusivos em combustível, farmácias e grandes lojas parceiras de todo o Brasil, nossos associados economizam muito em compras diárias. Tem gente pagando a mensalidade inteira da proteção veicular só com a economia que fez nos parceiros ao longo do mês! Viu vantagem? Faça a sua cotação na bio. 💸💳"
+  },
+  {
+    id: 12,
+    week: 4,
+    headline: "Prepare-se contra os temporais e granizos.",
+    art: "Carro limpo e seco contrastando com um clima fechado, indicando estar 'sob o guarda-chuva' da ABV. Proteção climática.",
+    caption: "Mudanças climáticas trazem temporais cada vez mais severos, alagamentos e chuva de granizo repentinas. Não conte só com a sorte pra proteger a pintura e a integridade do seu carro. Nossos planos protegem seu veículo contra fenômenos naturais, garantindo cobertura total e reboque instantâneo mesmo debaixo d'água. Deixa que a natureza faz o trabalho dela, que a ABV faz o dela por você! ⛈️☂️"
+  }
+];
+
 const abrilStories = [
   {
     id: "s1",
@@ -226,6 +313,25 @@ const mayStories = [
         <span className="font-bold text-xl">feriado nacional</span>, <br/>
         não haverá expediente <br/>
         em nossos escritórios.
+      </>
+    )
+  }
+];
+
+const juneStories = [
+  {
+    id: "s4",
+    title: "Feriado de Corpus Christi",
+    dateClosed: "04/06",
+    dateReturn: "05 de Junho",
+    phones: ["0800 606 5979", "0800 030 6672"],
+    customCopy: (
+      <>
+        Informamos que no dia <br/>
+        <span className="font-bold text-xl">04/06</span> não haverá <br/>
+        <span className="font-bold text-xl">expediente</span> <br/>
+        nos nossos escritórios. <br/>
+        Voltaremos dia 05/06.
       </>
     )
   }
@@ -325,6 +431,41 @@ const mayVideoScripts = [
   }
 ];
 
+const juneVideoScripts = [
+  {
+    id: 1,
+    title: "Copa do Mundo: O Brasil em Campo",
+    hook: "Dia de jogo do Brasil e a galera já tá pronta pro churrasco. Mas e o seu carro, tá na rua desprotegido?",
+    body: "Enquanto a seleção entra em campo pra buscar o título, você não pode deixar seu veículo vulnenrável. Em dias de jogos, as ruas ficam lotadas e a incidência de furtos ou colisões pode aumentar. Escalar a ABV pro seu time é a tática certa: a gente cuida do seu patrimônio com rastreamento, assistência 24h e cobertura total. Você foca no placar e a gente faz a defesa.",
+    cta: "Não marque gol contra! Clique no link da bio e faça sua cotação na hora com a ABV.",
+    visuals: "Cenário: Com camisa do Brasil ou em ritmo de torcida. Tom de voz: Animado, esportivo e confiante."
+  },
+  {
+    id: 2,
+    title: "Namorados: Presenteie e Concorra",
+    hook: "Quer dar o melhor presente de Dia dos Namorados e de quebra colocar uma CG 160 0km na garagem?",
+    body: "Parece brincadeira né? Mas aqui na ABV a Indicação Premiada tá com tudo. O maior ato de amor é garantir a proteção de quem a gente ama no trânsito. Você indica o seu amor pra proteger o veículo com a ABV, ele fica super amparado e você ainda ganha o cupom para o sorteio da nossa Honda CG 160 Start. Proteção para o casal, e chances em dobro no sorteio!",
+    cta: "Chama a gente no direct, indique seu amor e bora concorrer!",
+    visuals: "Cenário: Clima descontraído, com elementos em vermelho/coração, talvez segurando capacete. Tom de voz: Alegre, romântico e promocional."
+  },
+  {
+    id: 3,
+    title: "São João: Estrada Protegida",
+    hook: "Partiu interior pro Arraiá? Pular fogueira e comer canjica é bom demais, desde que você não fique a pé na estrada, né?",
+    body: "Chegou junho e as viagens pra curtir as Festas Juninas bombam! É rodovia cheia à noite e muito cansaço. Por isso, pegar estrada sem proteção veicular é pedir pra ter dor de cabeça. A ABV cobre todo o território nacional. Se a bateria arriar na madrugada fria ou o pneu abrir o bico, é só nos acionar no 0800 e a gente te resgata no meio do sertão. Curta sua festa tranquilo.",
+    cta: "Vai viajar pro São João? Faça sua cotação na bio antes de fazer as malas.",
+    visuals: "Cenário: Elementos juninos sutis (bandeirinha ao fundo) ou dentro do carro com mala. Tom de voz: Descontraído, festivo e alerta."
+  },
+  {
+    id: 4,
+    title: "Mito da Bateria no Frio",
+    hook: "Inverno tá batendo na porta e você sabe qual é o maior causador de dor de cabeça nos dias frios de junho?",
+    body: "A bateria que amanhece arriada. Você acorda atrasado, gira a chave, e faz aquele som triste. É muito maior o esforço que o seu motor faz pra pegar numa temperatura baixa, forçando a bateria. E a real é a seguinte: em vez de gastar uma nota com socorro avulso nessas madrugadas geladas, a solução inteligente é ter uma assistência que nunca te deixa na mão. É só ligar pra ABV.",
+    cta: "Não passe frio esperando no acostamento. Associe-se já à ABV clicando no link da bio.",
+    visuals: "Cenário: Casaco ou esfregando as mãos representando frio ao lado do capô aberto. Tom de voz: Urgente, prático, direto ao problema."
+  }
+];
+
 // --- COMPONENTS ---
 
 const Logo = ({ customLogo, onUpload }: { customLogo: string | null, onUpload: (e: React.ChangeEvent<HTMLInputElement>) => void }) => (
@@ -364,7 +505,7 @@ const Logo = ({ customLogo, onUpload }: { customLogo: string | null, onUpload: (
 );
 
 export default function App() {
-  const [selectedMonth, setSelectedMonth] = useState('abril');
+  const [selectedMonth, setSelectedMonth] = useState<'abril' | 'maio' | 'junho'>('abril');
   const [activeTab, setActiveTab] = useState('week1');
   const [customLogo, setCustomLogo] = useState<string | null>(null);
 
@@ -389,18 +530,27 @@ export default function App() {
   ];
 
   const tabsMaio = [
-    { id: 'week1', label: 'Semana 1', icon: Calendar },
-    { id: 'week2', label: 'Semana 2', icon: Calendar },
-    { id: 'week3', label: 'Semana 3', icon: Calendar },
-    { id: 'week4', label: 'Semana 4', icon: Calendar },
-    { id: 'stories', label: 'Stories (Comunicados)', icon: Smartphone },
-    { id: 'videos', label: 'Roteiros de Vídeo', icon: Video },
+    { id: 'week1', label: 'Sem. 1', icon: Calendar },
+    { id: 'week2', label: 'Sem. 2', icon: Calendar },
+    { id: 'week3', label: 'Sem. 3', icon: Calendar },
+    { id: 'week4', label: 'Sem. 4', icon: Calendar },
+    { id: 'stories', label: 'Stories', icon: Smartphone },
+    { id: 'videos', label: 'Vídeos', icon: Video },
   ];
 
-  const currentTabs = selectedMonth === 'abril' ? tabsAbril : tabsMaio;
+  const tabsJunho = [
+    { id: 'week1', label: 'Sem. 1', icon: Calendar },
+    { id: 'week2', label: 'Sem. 2', icon: Calendar },
+    { id: 'week3', label: 'Sem. 3', icon: Calendar },
+    { id: 'week4', label: 'Sem. 4', icon: Calendar },
+    { id: 'stories', label: 'Stories', icon: Smartphone },
+    { id: 'videos', label: 'Vídeos', icon: Video },
+  ];
+
+  const currentTabs = selectedMonth === 'abril' ? tabsAbril : selectedMonth === 'maio' ? tabsMaio : tabsJunho;
 
   const renderFeedPosts = (week: number) => {
-    const sourcePosts = selectedMonth === 'abril' ? feedPosts : mayFeedPosts;
+    const sourcePosts = selectedMonth === 'abril' ? feedPosts : selectedMonth === 'maio' ? mayFeedPosts : juneFeedPosts;
     const posts = sourcePosts.filter(p => p.week === week);
     return (
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -451,7 +601,7 @@ export default function App() {
   };
 
   const renderStories = () => {
-    const currentStories = selectedMonth === 'abril' ? abrilStories : mayStories;
+    const currentStories = selectedMonth === 'abril' ? abrilStories : selectedMonth === 'maio' ? mayStories : juneStories;
     return (
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
         {currentStories.map((story, index) => (
@@ -510,7 +660,7 @@ export default function App() {
   };
 
   const renderVideoScripts = () => {
-    const currentVideos = selectedMonth === 'abril' ? abrilVideoScripts : mayVideoScripts;
+    const currentVideos = selectedMonth === 'abril' ? abrilVideoScripts : selectedMonth === 'maio' ? mayVideoScripts : juneVideoScripts;
     return (
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-6xl mx-auto">
         {currentVideos.map((script, index) => (
@@ -560,7 +710,7 @@ export default function App() {
           <Logo customLogo={customLogo} onUpload={handleLogoUpload} />
           <div className="text-right hidden sm:block">
             <h1 className="text-xl font-bold text-gray-900">Planejamento de Social Media</h1>
-            <p className="text-sm text-gray-500 font-medium uppercase tracking-wider">{selectedMonth === 'abril' ? 'Abril 2026' : 'Maio 2026'}</p>
+            <p className="text-sm text-gray-500 font-medium uppercase tracking-wider">{selectedMonth === 'abril' ? 'Abril 2026' : selectedMonth === 'maio' ? 'Maio 2026' : 'Junho 2026'}</p>
           </div>
         </div>
       </header>
@@ -585,7 +735,7 @@ export default function App() {
               </div>
               <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full text-sm font-medium">
                 <ShieldCheck size={18} className="text-[#E89D25]" />
-                {selectedMonth === 'abril' ? '2 Comunicados (Stories)' : '1 Comunicado (Story)'}
+                {selectedMonth === 'abril' ? '2 Comunicados (Stories)' : selectedMonth === 'maio' ? '1 Comunicado (Story)' : '1 Comunicado (Story)'}
               </div>
             </div>
           </div>
@@ -593,18 +743,24 @@ export default function App() {
 
         {/* Month Toggle */}
         <div className="flex items-center mb-6">
-          <div className="flex bg-white rounded-xl p-1 shadow-sm border border-gray-200">
+          <div className="flex bg-white rounded-xl p-1 shadow-sm border border-gray-200 overflow-x-auto">
             <button
               onClick={() => { setSelectedMonth('abril'); setActiveTab('week1'); }}
-              className={`px-8 py-2.5 rounded-lg font-bold text-sm transition-all ${selectedMonth === 'abril' ? 'bg-[#1A5F7A] text-white shadow-md' : 'text-gray-500 hover:text-gray-900'}`}
+              className={`px-8 py-2.5 rounded-lg font-bold text-sm transition-all whitespace-nowrap ${selectedMonth === 'abril' ? 'bg-[#1A5F7A] text-white shadow-md' : 'text-gray-500 hover:text-gray-900'}`}
             >
               Abril
             </button>
             <button
               onClick={() => { setSelectedMonth('maio'); setActiveTab('week1'); }}
-              className={`px-8 py-2.5 rounded-lg font-bold text-sm transition-all flex items-center gap-2 ${selectedMonth === 'maio' ? 'bg-[#1A5F7A] text-white shadow-md' : 'text-gray-500 hover:text-gray-900'}`}
+              className={`px-8 py-2.5 rounded-lg font-bold text-sm transition-all whitespace-nowrap flex items-center gap-2 ${selectedMonth === 'maio' ? 'bg-[#1A5F7A] text-white shadow-md' : 'text-gray-500 hover:text-gray-900'}`}
             >
-              Maio <span className="bg-[#E89D25] text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wider">Novo</span>
+              Maio ✨
+            </button>
+            <button
+              onClick={() => { setSelectedMonth('junho'); setActiveTab('week1'); }}
+              className={`px-8 py-2.5 rounded-lg font-bold text-sm transition-all whitespace-nowrap flex items-center gap-2 ${selectedMonth === 'junho' ? 'bg-[#1A5F7A] text-white shadow-md' : 'text-gray-500 hover:text-gray-900'}`}
+            >
+              Junho 🔥 <span className="bg-[#E89D25] text-white text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wider">Novo</span>
             </button>
           </div>
         </div>
